@@ -609,9 +609,3 @@ details.role[open] summary h3::after{content:" −"}
  header.site{background:var(--mist);backdrop-filter:none;-webkit-backdrop-filter:none}
  nav{inset:auto;position:absolute;top:100%;left:0;right:0;height:calc(100vh - 76px);height:calc(100dvh - 76px);overflow-y:auto;background:var(--mist);border-top:1px solid var(--line);box-shadow:0 20px 40px -20px rgba(14,34,53,.35);z-index:60}
 }
-
-/* v28: toll-free number in top bar */
-.topline .tl-right{display:flex;align-items:center;gap:18px}
-.topline .tl-phone{display:inline-flex;align-items:center;gap:7px;color:var(--on-navy);text-decoration:none;font-weight:500;letter-spacing:.1em;white-space:nowrap}
-.topline .tl-phone svg{width:13px;height:13px;color:var(--honey-l)}
-.topline .tl-phone:hover{color:var(--honey-l)}
