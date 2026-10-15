@@ -684,3 +684,11 @@ details.role[open] summary h3::after{content:" −"}
 .idcard p:last-child{font-size:14px;color:var(--steel)}
 @media (max-width:1000px){.capgrid.five{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:560px){.capgrid.five{grid-template-columns:1fr}}
+
+/* v34: smaller language marquee; show the full map without cropping */
+.marquee .mq-track{padding:9px 0}
+.marquee .mq-track span{margin:0 16px}
+.marquee .mq-track .s{font-size:17px}
+.marquee .mq-track .e{font-size:10px;letter-spacing:.14em}
+@media (max-width:640px){.marquee .mq-track .s{font-size:15px}}
+.mapband .theater{max-height:none;aspect-ratio:1200/700;height:auto}
